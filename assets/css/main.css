@@ -184,9 +184,22 @@ input, select, textarea {
 		}
 }	
 /*  END MODIFIED */	
-
-	
-		
+	@media (max-width:575.98px) {
+	.phonedial{
+	display: none;
+	}
+	.phone2 {
+	display: flex;
+	}
+}	@media(min-width:576px){
+	.phonedial{
+	display: inline;
+			
+}
+.phone2 {
+display: none;
+}
+	}
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
