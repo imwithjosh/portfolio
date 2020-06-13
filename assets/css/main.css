@@ -165,12 +165,20 @@ input, select, textarea {
 			border:0;
 			clear:all;
 		}
+		.grid-container-2 ul{
+			list-style-type:none;
+			padding-left:0;
+		}
 }	
 
 @media (min-width: 576px) {
 		.grid-container{
 			display: flex;
 			justify-content: space-between;
+		}
+		.grid-container ul{
+			list-style-type:none;
+			padding-left:0;
 		}
 		.grid-container-2{
 			display: none;
@@ -181,6 +189,10 @@ input, select, textarea {
 			display: flex;
 			justify-content: space-between;
 		}	
+		.grid-container ul{
+			list-style-type:none;
+			padding-left:0;
+		}
 		.grid-container-2{
 			display: none;
 		}
