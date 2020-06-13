@@ -122,8 +122,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 13pt;
-			}
-
+			} 
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -131,7 +130,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 		}
 
 		@media screen and (max-width: 360px) {
@@ -139,8 +137,14 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
 		}
+
+/*  MODIFIED */	
+@media (max-width: 575.98px) {
+		.grid-container{
+			display: none; 
+		}
+<<<<<<< HEAD
 			@media screen and (max-width:418px)
 			.grid-container{
 				display: inline;
@@ -153,6 +157,39 @@ input, select, textarea {
 			.grid-container ul{
 				list-style: none;
 			}
+=======
+		.grid-container-2{
+			display: block;
+		}
+		.grid-container-2 table{
+			border:0;
+			clear:all;
+		}
+}	
+
+@media (min-width: 576px) {
+		.grid-container{
+			display: flex;
+			justify-content: space-between;
+		}
+		.grid-container-2{
+			display: none;
+		}
+}  
+@media (min-width: 1200px) {
+		.grid-container{
+			display: flex;
+			justify-content: space-between;
+		}	
+		.grid-container-2{
+			display: none;
+		}
+}	
+/*  END MODIFIED */	
+
+	
+		
+>>>>>>> 301d3af123b990942679c14be4b7bb9f45ae5294
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
