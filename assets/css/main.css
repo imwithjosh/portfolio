@@ -2880,6 +2880,20 @@ display: none;
 				ul.icons li > a .label, ul.icons li > span .label {
 					display: none;
 				}
+				@media (max-width:575.98px) {
+				ul li.smallscreen {
+					display:inline;
+				}
+			} 	@media(min-width:576px){
+				ul li.smallscreen {
+					display:none;
+				}
+			}
+			@media (min-width: 1200px) {
+				ul li.smallscreen {
+					display:none;
+				}
+			}
 
 /* Menu */
 
